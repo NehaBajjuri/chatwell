@@ -1,0 +1,172 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+  - intent: Thank
+  - action: utter_Thank
+
+- story: sad path 1
+  steps:
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  
+
+- story: sad path 2
+  steps:
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+
+
+- story: Greet the bot
+  steps:
+    - intent: greet
+    - action: utter_greet
+
+- story: Farewell from the bot
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye
+
+- story: asks about forgiveness
+  steps:
+    - intent: forgiveness
+    - action: utter_forgiveness
+- story: Affirm response to overwhelming
+  steps:
+    - intent: overwhelm
+    - action: utter_overwhelm
+- story: Affirm response to a patience
+  steps:
+    - intent: patience
+    - action: utter_patience
+- story: Affirm response about self_compassion
+  steps:
+    - intent: self_compassion
+    - action: utter_self_compassion
+- story: Deny response to a question
+  steps:
+    - intent: deny
+    - action: utter_deny
+
+- story: User talks about depression
+  steps:
+    - intent: depression
+    - action: utter_depression
+
+- story: User talks about exams
+  steps:
+    - intent: Exams
+    - action: utter_Exams
+
+- story: User mentions suicide
+  steps:
+    - intent: suicide
+    - action: utter_suicide
+
+- story: User feels not okay
+  steps:
+    - intent: not
+    - action: utter_not
+
+- story: User feeling negative
+  steps:
+    - intent: Negativity
+    - action: utter_Negativity
+
+- story: User feeling anxious
+  steps:
+    - intent: anxiety
+    - action: utter_anxiety
+
+- story: User feeling stressed
+  steps:
+    - intent: stress
+    - action: utter_stress
+
+- story: User feels lonely
+  steps:
+    - intent: loneliness
+    - action: utter_loneliness
+
+- story: User can't sleep
+  steps:
+    - intent: sleep
+    - action: utter_sleep
+
+- story: User struggles with anger
+  steps:
+    - intent: anger_management
+    - action: utter_anger_management
+
+- story: User needs self-care tips
+  steps:
+    - intent: self_care
+    - action: utter_self_care
+
+- story: User needs motivation
+  steps:
+    - intent: motivation
+    - action: utter_motivation
+
+- story: User wants to practice mindfulness
+  steps:
+    - intent: mindfulness
+    - action: utter_mindfulness
+
+- story: User considering therapy
+  steps:
+    - intent: therapy
+    - action: utter_therapy
+
+- story: User seeks coping mechanisms
+  steps:
+    - intent: coping_mechanisms
+    - action: utter_coping_mechanisms
+
+- story: User needs hope
+  steps:
+    - intent: hope
+    - action: utter_hope
+
+- story: User practicing gratitude
+  steps:
+    - intent: gratitude
+    - action: utter_gratitude
+
+- story: User struggles with self-worth
+  steps:
+    - intent: self_worth
+    - action: utter_self_worth
+
+- story: User wants personal growth
+  steps:
+    - intent: personal_growth
+    - action: utter_personal_growth
+
+- story: User is grieving
+  steps:
+    - intent: grief
+    - action: utter_grief
+
+- story: User unhappy with body image
+  steps:
+    - intent: body_image
+    - action: utter_body_image
+
+- story: User wants change in life
+  steps:
+    - intent: change
+    - action: utter_change
+
+- story: User wants resilience
+  steps:
+    - intent: resilience
+    - action: utter_resilience

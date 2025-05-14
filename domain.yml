@@ -1,0 +1,154 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - mood_great
+  - mood_unhappy
+  - depression
+  - suicide
+  - not
+  - Negativity
+  - Exams
+  - Thank
+  - anxiety
+  - stress
+  - loneliness
+  - sleep
+  - deny
+  - anger_management
+  - self_care
+  - motivation
+  - mindfulness
+  - therapy
+  - coping_mechanisms
+  - hope
+  - gratitude
+  - self_worth
+  - personal_growth
+  - grief
+  - body_image
+  - change
+  - resilience
+  - patience
+  - forgiveness
+  - overwhelm
+  - self_compassion
+
+
+responses:
+  
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_Thank:
+  - text: "You are welcome :)"
+
+  utter_goodbye:
+  - text: "Bye! Have a Nice day!"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_not:
+  - text: "I'm sorry to hear that you're not feeling well. Try to get some rest. You could also try eating some comforting food or take any medicine if needed. Remember to listen to your body and take care of yourself :)"
+
+  utter_depression:
+  - text: "Feeling low is a common experience for many people. Try to develop self-esteem and self-compassion, and identify healthier ways of relating to yourself and others. Remember that you are worthy of love and support, and reaching out for help is a courageous step towards healing. Try to write down your thoughts, go on a walk, or listen to your favorite music. Hope you feel better soon 💪"
+
+  utter_suicide:
+  - text: "I'm really sorry to hear that you're feeling this way. It's important to know that there are people who care about you and want to support you through this difficult time. Please consider reaching out to a trusted friend, family member, or a mental health professional for help and support. You're not alone 🤍🦋"
+
+  utter_Negativity:
+  - text: "It's common to feel that way sometimes, but it's important to remember that everyone has value and purpose. You have unique qualities and strengths that make you valuable. If you're struggling to see your worth, consider talking to someone who can help you explore your strengths and find ways to build on them. You're capable of achieving great things, and it's okay to ask for support along the way 🤞"
+
+  utter_Exams:
+  - text: "Prepare Early and Smart: Start studying early, organize materials, and create a structured schedule. Balance and Wellness: Take breaks, prioritize sleep, nutrition, and hydration for peak performance. Stay Positive and Motivated: Embrace challenges, believe in yourself, and stay determined with a positive mindset 🎯. Strategic Exam Approach: Practice actively, review past exams, read instructions carefully, and manage time wisely ⏳. Celebrate and Trust Yourself: Celebrate achievements, trust your abilities, and approach each exam confidently 🎉"
+
+  # Additional mental health responses:
+
+  utter_anxiety:
+  - text: "Anxiety is a natural response to stress, but it can be managed. Practice deep breathing, mindfulness, and grounding exercises. Focus on one thing at a time and try not to worry about things you can't control. If it feels overwhelming, talking to someone you trust or a professional can help. You're not alone, and it's okay to seek support."
+
+  utter_stress:
+  - text: "Stress can be hard to deal with, but it's important to take breaks, practice relaxation techniques, and focus on activities that calm you down. Try exercising, listening to music, or spending time in nature. Remember, it's okay to ask for help when you need it, and taking small steps can make a big difference."
+
+  utter_loneliness:
+  - text: "Feeling lonely is tough, but it’s important to stay connected with others. Reach out to a friend or family member, or consider joining a community or group that interests you. Even when you're alone, remember that you're valued, and taking small steps to connect with others can help lift your spirits."
+
+  utter_sleep:
+  - text: "Good quality sleep is essential for mental health. Try to establish a consistent bedtime routine, limit screen time before bed, and create a relaxing environment. If you're having trouble sleeping, consider journaling your thoughts or practicing relaxation techniques before bed. A restful night can help you feel more energized and focused."
+
+  utter_anger_management:
+  - text: "Managing anger is crucial for your well-being. Try deep breathing or stepping away from the situation to calm down. Reflect on the source of your anger and consider talking it out with someone you trust. You deserve to feel in control of your emotions, and there are strategies that can help you stay calm and collected."
+
+  utter_self_care:
+  - text: "Self-care is essential for maintaining good mental health. Take time for activities that make you feel happy, relaxed, and rejuvenated. This could include hobbies, meditation, reading, or spending time with loved ones. Remember, taking care of yourself is not selfish—it's necessary for your well-being."
+
+  utter_motivation:
+  - text: "Everyone needs a little motivation sometimes. Focus on your goals, and remember that every small step forward counts. Celebrate your achievements, no matter how small. Stay patient with yourself, and remember that progress is progress, even if it's slow. You've got this!"
+
+  utter_mindfulness:
+  - text: "Mindfulness helps bring focus to the present moment and can reduce stress and anxiety. Try practicing mindfulness by paying attention to your breathing, being aware of your surroundings, and letting go of distractions. It can help clear your mind and give you a sense of calm."
+
+  utter_therapy:
+  - text: "Therapy can be a great way to explore your thoughts and feelings in a safe and supportive environment. A professional therapist can help you develop coping strategies, improve your mental health, and guide you through difficult emotions. It's okay to seek help, and you deserve to feel heard and supported."
+
+  utter_coping_mechanisms:
+  - text: "Coping mechanisms are strategies that can help you manage stress, anxiety, or difficult emotions. These might include exercise, creative activities like drawing or writing, or simply taking deep breaths. It's important to find what works for you and use these techniques when needed."
+
+  utter_hope:
+  - text: "Even in challenging times, remember that there is always hope. Things can and do get better. Focus on small moments of joy, and don't lose sight of your goals. Hope is powerful, and you have the strength to overcome whatever you're facing."
+
+  utter_gratitude:
+  - text: "Gratitude can be a powerful tool for improving your mood. Take a moment to reflect on the things you're grateful for, even the small things. It can help shift your focus to the positive and create a sense of calm and contentment."
+
+  # New added responses:
+
+  utter_self_worth:
+  - text: "Your self-worth is not defined by others' opinions or by your mistakes. You are valuable and deserving of love, respect, and kindness. Remind yourself of your strengths, and don’t be too hard on yourself. Embrace who you are and know that you bring something unique to this world."
+
+  utter_personal_growth:
+  - text: "Personal growth is a journey, not a destination. It’s about evolving and learning from your experiences, mistakes, and challenges. Take it one step at a time, and remember that small progress is still progress. Celebrate the growth you've already made, and stay open to further learning and self-improvement."
+
+  utter_grief:
+  - text: "Grieving is a natural response to loss, and it's okay to feel a range of emotions. Take your time to process your feelings, and don't be afraid to reach out for support from loved ones or a professional. Healing takes time, and it's okay to ask for help when needed."
+
+  utter_body_image:
+  - text: "It's common to have insecurities about your body, but remember that everyone has unique qualities. Focus on what your body can do for you, rather than how it looks. If negative thoughts arise, try challenging them by focusing on your strengths and the things you appreciate about yourself."
+
+  utter_change:
+  - text: "Change can be difficult, but it can also bring new opportunities for growth and self-discovery. Embrace change as a chance to learn and expand your horizons. It’s okay to feel uncertain or uncomfortable, but trust that you have the resilience to handle it."
+
+  utter_resilience:
+  - text: "Resilience is the ability to bounce back from challenges, and it’s something you can build over time. Embrace setbacks as part of the learning process, and trust that you have the strength and adaptability to overcome obstacles. Keep going, even when things feel tough."
+
+  utter_patience:
+  - text: "Patience is key to overcoming challenges. Progress may take time, but every step forward, no matter how small, counts. Trust the process and give yourself grace. Remember, you're doing the best you can, and that's enough."
+
+  utter_forgiveness:
+  - text: "Forgiveness is not just for others; it’s also for yourself. Let go of past hurts to make space for healing and growth. It can be difficult, but it’s worth it for your peace of mind. You deserve to move forward with a sense of peace and freedom."
+
+  utter_overwhelm:
+  - text: "If you're feeling overwhelmed, it's okay to take a step back and break things down into smaller, manageable tasks. Focus on one thing at a time, and remember that it's okay to ask for help. Take a deep breath, and take care of yourself. You’ve got this!"
+
+  utter_self_compassion:
+  - text: "Be kind to yourself. We all make mistakes, but that doesn’t mean we are failures. Treat yourself with the same kindness and understanding that you would offer to a loved one. Embrace your imperfections, and remember that you are worthy of love and care."
+
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_deny:
+  - text: "Sorry!"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

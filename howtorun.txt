@@ -1,0 +1,17 @@
+
+D:\>rmdir /s /q .venv
+
+D:\>"C:\Users\Neha Bajjuri\AppData\Local\Programs\Python\Python310\python.exe" -m venv .venv
+
+D:\>.\.venv\Scripts\activate
+
+(.venv) D:\>cd chatbot
+
+(.venv) D:\chatbot>rasa run --enable-api
+
+
+
+
+To run backend while frontend is running
+
+(.venv) D:\chatbot>rasa run --enable-api --cors "*" --debug

@@ -1,0 +1,427 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - See you
+    - good bye
+    - see you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - Iam so lonely
+    - I feel empty
+    - I dont have anyone
+    - I feel down
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - what can you do?
+    - what are you?
+    - what do you do?
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: depression
+  examples: |
+    - I am so depressed
+    - Why do I feel so depressed all the time
+    - Will anyone ever understand what I'm depressed?
+    - Why am I always depressed
+    - I am in depression
+    - How to stop feeling depressed?
+    - I may die with this depression
+    - I am done with this depression.
+    - Can you suggest any mindfulness or relaxation techniques to help me manage my anxiety and depression?
+    - I feel so empty inside, like nothing matters anymore.Iam totally depressed. Can you help me understand why I feel this way?
+
+- intent: suicide
+  examples: |
+    - I want to suicide
+    - Suicide is the only solution
+    - Why can't I cope with life like everyone else seems to? and want to suicide
+    - Will anyone ever understand what I'm going through? and want to suicide
+    - Is there anything I can do to stop feeling so hopeless and helpless and want to suicide
+    - Am I just a burden to everyone around me and want to suicide
+    - suicide
+    - I dont want to live and want to suicide
+    - I can't go on like this anymore and want to suicide
+    - There's no point in living and want to suicide
+    - I just want the pain to end and want to suicide
+    - feels meaningless and want to suicide
+    - I can't bear to face another day and want to suicide
+
+- intent: not
+  examples: |
+    - Iam not feeling well
+    - Iam not okay
+    - not feeling like living
+    - not feeling nice
+    - not feeling like doing anything
+    - not liking anythying
+    - do not want to do anything
+    - Feeling empty
+
+- intent: Negativity
+  examples: |
+    - How can I stop negative thoughts?
+    - What techniques help manage negative thinking?
+    - I think I am not good at anything and feeling negative.
+    - I feel like Iam surrounded with negativity.
+    - Iam getting negative vibes
+
+- intent: Exams
+  examples: |
+    - Exam anxiety
+    - Exam nerves
+    - Exam pressure
+    - Exam tension
+    - Exam worry
+    - Exam stress
+    - Exam panic
+    - Exam fear
+    - Exam overwhelm
+    - Exam strain
+    - Exam apprehension
+    - Exam jitters
+    - Exam tension
+    - How should I start my exam preperation?
+    - I dont want to write exam?
+    - What if I fail in this exam?
+    - How to write my exams well
+    - These exams are just shit
+    - Stupid exams
+
+- intent: anxiety
+  examples: |
+    - I feel anxious
+    - I'm having anxiety
+    - I can't stop worrying
+    - What do I do when I'm feeling anxious?
+    - I'm overwhelmed with anxiety
+    - I'm so anxious all the time
+    - I feel like something bad is going to happen
+
+- intent: stress
+  examples: |
+    - I'm stressed out
+    - I'm feeling really stressed
+    - How do I manage stress?
+    - I'm under a lot of stress
+    - I can't handle the stress
+    - My stress is overwhelming
+
+- intent: loneliness
+  examples: |
+    - I feel so lonely
+    - I have no one around me
+    - I'm so alone
+    - I can't handle this loneliness
+    - I feel like nobody cares
+    - I'm always by myself
+    - I need someone to talk to
+
+- intent: sleep
+  examples: |
+    - I can't sleep
+    - I'm having trouble sleeping
+    - I feel so tired
+    - I need a good night's sleep
+    - I can't seem to fall asleep
+    - I'm exhausted
+
+- intent: anger_management
+  examples: |
+    - I have trouble controlling my anger
+    - How can I manage my anger?
+    - I get angry easily
+    - I'm always so angry
+    - My anger is taking over me
+    - What can I do to calm down when I'm angry?
+
+- intent: self_care
+  examples: |
+    - How do I take care of myself?
+    - Self-care tips
+    - What are some self-care routines?
+    - I need to take care of myself
+    - I feel like I haven't been practicing self-care
+
+- intent: motivation
+  examples: |
+    - I need motivation
+    - How can I motivate myself?
+    - I feel so unmotivated
+    - I'm struggling with motivation
+    - How do I stay motivated?
+
+- intent: mindfulness
+  examples: |
+    - What is mindfulness?
+    - How can I practice mindfulness?
+    - I want to be more mindful
+    - How do I focus on the present moment?
+    - Can you teach me mindfulness?
+
+- intent: therapy
+  examples: |
+    - How do I find a therapist?
+    - I think I need therapy
+    - Should I go to therapy?
+    - What does therapy help with?
+    - How can therapy help me?
+
+- intent: coping_mechanisms
+  examples: |
+    - What are some coping mechanisms?
+    - How do I cope with stress?
+    - I need help with coping
+    - How do I deal with difficult emotions?
+    - What are healthy coping mechanisms?
+
+- intent: hope
+  examples: |
+    - I need hope
+    - Is there hope for me?
+    - How can I stay hopeful?
+    - I don't feel hopeful anymore
+    - How do I find hope?
+
+- intent: gratitude
+  examples: |
+    - What are some ways to practice gratitude?
+    - I want to be more grateful
+    - How do I show gratitude?
+    - Can you remind me to be grateful?
+    - I'm thankful for everything
+
+- intent: Thank
+  examples: |
+    - Thank you
+    - Thanks a lot
+    - Thank you so much
+    
+- intent: forgiveness
+  examples: |
+    - Do I forgive?
+    - Should I forgive them?
+
+- intent: overwhelm
+  examples: |
+    - It's quite overwhelming
+    - overwhelm
+
+- intent: patience
+  examples: |
+    - How should I increase my patience
+    - You are testing my patience
+
+- intent: self_compassion
+  examples: |
+    - How do I practice self_compassion?
+    - How do I habituate self compassion?
+
+
+
+
+
+- intent: self_worth
+  examples: |
+    - I don't feel good about myself
+    - How do I improve my self-worth?
+    - I struggle with self-worth
+    - I don't feel like I'm enough
+    - I have low self-esteem
+
+- intent: personal_growth
+  examples: |
+    - How do I grow as a person?
+    - What are some tips for personal growth?
+    - I want to improve myself
+    - How do I become a better person?
+    - I want to work on myself
+
+- intent: grief
+  examples: |
+    - I am grieving
+    - How do I deal with grief?
+    - I lost someone important
+    - I feel like I will never recover from this loss
+    - How can I heal from grief?
+
+- intent: body_image
+  examples: |
+    - I feel bad about my body
+    - How do I improve my body image?
+    - I am not happy with how I look
+    - How do I accept my body?
+    - I wish I could change how I look
+
+- intent: change
+  examples: |
+    - I want to change my life
+    - How do I change myself?
+    - I need a change
+    - I'm looking for a positive change
+    - How do I make a life change?
+
+- intent: resilience
+  examples: |
+    - How do I become more resilient?
+    - I want to be stronger
+    - What
